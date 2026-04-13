@@ -12,10 +12,6 @@ public class ShoppingReceipt {
         String product3Name = "cup";
         double product3Price = 10.00;
 
-        System.out.println(product1Name + ": $" + product1Price);
-        System.out.println(product2Name + ": $" + product2Price);
-        System.out.println(product3Name + ": $" + product3Price);
-
         // Calculations
         double subtotal = product1Price + product2Price + product3Price;
         double taxAmount = subtotal * TAX_RATE;
@@ -23,8 +19,14 @@ public class ShoppingReceipt {
 
         // Print Receipt
         System.out.println("--- Receipt ---");
+
+        System.out.println(product1Name + ": $" + product1Price);
+        System.out.println(product2Name + ": $" + product2Price);
+        System.out.println(product3Name + ": $" + product3Price);
+
         System.out.printf("Subtotal: $%.2f%n", subtotal);
         System.out.printf("Tax (18%%): $%.2f%n", taxAmount);
+
         System.out.println("---------------");
         System.out.printf("Total:    $%.2f%n", total);
     }
