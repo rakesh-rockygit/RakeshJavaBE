@@ -13,9 +13,9 @@ public class DigitalClockConverter {
 
         int hours = seconds / 3600;
         int minutes = (seconds % 3600);
-        int second = seconds % 60;
+        // int second = seconds % 60;
 
-        System.out.printf("%d:%02d:%02d", hours, minutes, second);
+        System.out.printf("%d:%02d:%02d", hours, minutes);
 
     }
 
