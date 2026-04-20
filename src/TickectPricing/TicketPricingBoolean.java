@@ -18,10 +18,13 @@ public class TicketPricingBoolean {
         Scanner scan = new Scanner(System.in);
 
         // Instance variable
-        System.out.print("Please enter your age: ");
+        System.out.print(" Please enter your age: ");
         int age = scan.nextInt();
 
-        boolean isMember = true;
+        System.out.print("IsMember? ");
+        boolean isMember = scan.nextBoolean();
+
+        // boolean isMember = true;
         boolean isAdult = age >= 18;
         boolean isSenior = age >= 65;
 
