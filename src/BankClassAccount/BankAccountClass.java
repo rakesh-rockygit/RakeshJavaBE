@@ -14,24 +14,24 @@ public class BankAccountClass {
     }
 
     public void deposit(double amount) {
-        this.balance = amount;
+        this.balance += amount;
 
     }
 
-    public String withdraw(double amount){
-        if (amount <= this.balance){
-            return "enough balance";
+    public String withdraw(double amount) {
+        if (amount <= this.balance) {
+            this.balance -= amount;
+            return "sufficient balance";
+        } else {
+            return "error : insufficient balance";
         }
-            else {
-                return "error";
-
-            }
+    }
 
     public String getSummary() {
 
-        return " deposits received :" + deposit +
-                "withdrawal amount :" + withdraw +
-                "insufficient bal :" + insufficient;
+        return " owner name :" + owner +
+                " account number is :" + accountNumber +
+                "balance in account :" + balance;
 
     }
 
@@ -39,7 +39,9 @@ public class BankAccountClass {
 
         BankAccountClass ba1 = new BankAccountClass("raju", "10493", 50000);
 
+        ba1.deposit(10000);
         System.out.println(ba1.getSummary());
+        System.out.println(ba1.withdraw(70000));
 
     }
 
