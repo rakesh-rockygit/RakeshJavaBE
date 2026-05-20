@@ -44,5 +44,7 @@ public class Discount {
         Discount dm1 = new Discount(100, "kiwi", "fruit", 1500);
         dm1.sell(10);
         System.out.println(dm1.displayInfo());
+        System.out.println(dm1.stockCount);
     }
+
 }
