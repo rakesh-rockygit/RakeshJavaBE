@@ -24,11 +24,13 @@ public class BankingOperations {
     return currentBalance;
   }
 
-  public void deposit(int account, double amount) { // addition to the current balance
+  public double deposit(int account, double amount) { // addition to the current balance
     currentBalance = currentBalance + amount;
+    return currentBalance;
   }
 
-  public void withdraw(int account, double amount) { // substraction to the current balance
+  public double withdraw(int account, double amount) { // substraction to the current balance
     currentBalance = currentBalance - amount;
+    return currentBalance;
   }
 }
