@@ -15,13 +15,12 @@ public class TrafficSignal {
      Stop / Slow down / Go. Handle unknown colours with a default. */
 
      private String trafficLight(String colour){
-             String instruction = "";
-             String result = switch (colour) {
+             return switch (colour) {
               case "RED" -> "STOP";
               case "ORANGE" -> "WAIT";
               case "GREEN" -> "GO";
               default -> "Incorrect Signal";
             };
-            return result;
+           
         }
     }
