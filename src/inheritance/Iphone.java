@@ -1,8 +1,9 @@
 package inheritance;
 
-public class Iphone extends Mobile{
+public class Iphone {
 public static void main(String[] args) {
-    Iphone mobile = new Iphone();
-    System.out.println(("calling parent of iphone : " + mobile.parentModel()));
+    Mobile mobile = new Mobile(); 
+    int hashCode = mobile.hashCode();
+System.out.println("hashcode of the mobile object :" + hashCode);
 }
 }
