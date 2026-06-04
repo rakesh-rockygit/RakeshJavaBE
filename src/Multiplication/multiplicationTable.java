@@ -23,7 +23,7 @@ public void multiply(int n){
 
 public static void main(String[] args) {
     multiplicationTable multiplicationtable = new multiplicationTable();
-    multiplicationtable.multiply(10);
+    multiplicationtable.multiply(12);
    // System.out.println(n + " * " + i + " = " + (n * i));
   
 }
