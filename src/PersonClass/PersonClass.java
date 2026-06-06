@@ -22,7 +22,7 @@ public class PersonClass {
 
     public static void main(String[] args) {
         PersonClass person1 = new PersonClass("rocky", 30, "vancouver");
-        PersonClass person2 = new PersonClass("rakesh", 2, "toronto");
+        PersonClass person2 = new PersonClass("rakesh", 27, "toronto");
         person1.greet();
         person2.greet();
     }
