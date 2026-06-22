@@ -44,7 +44,7 @@ public class arrayList {
              System.out.println(city);
         }
 
-         System.out.println();
+        
           System.out.println(cityList);
     }
     }
