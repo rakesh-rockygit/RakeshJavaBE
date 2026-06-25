@@ -14,13 +14,13 @@ while(number > 0){
     number = number/10;
 
 }
-System.out.println("sum of didgits of the " + tempNumber + " : " + SumofDigitss );
+System.out.println("sum of digits of the " + tempNumber + " : " + SumofDigitss );
 return SumofDigitss;
 } 
     public static void main(String[] args) {
 
         combineDigits sumofDigitsss = new combineDigits();
 
-        System.out.println(sumofDigitsss.SumofDigitss(9859));
+        System.out.println(sumofDigitsss.SumofDigitss(985));
     }
 }

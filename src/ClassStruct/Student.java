@@ -9,11 +9,13 @@ public class Student {
     static int totalStudents = 0;
     static String university = "ITU";
 
+    final double PI_TABLE = 3.14;
+
     public Student(String name, double gpa) {
         this.name = name;
         this.gpa = gpa;
         totalStudents++;
-        gpa++;
+        PI_TABLE = 4544.18;
 
         // every new student increments the shared counter
     }
@@ -26,8 +28,12 @@ public class Student {
         // Student s3 = new Student("Leyla",3.5);
 
         System.out.println(Student.totalStudents);
-        System.out.println(s1.gpa++);
+        System.out.println(s1.gpa);
         System.out.println(s2.name);
 
+    }
+
+    public int getstudent() {
+        return Student.totalStudents;
     }
 }

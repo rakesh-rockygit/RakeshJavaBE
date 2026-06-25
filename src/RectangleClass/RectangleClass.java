@@ -1,6 +1,6 @@
 package RectangleClass;
 
-public class RectangleClass {
+public class RectangleClass { // instance variables
 
     double width;
     double height;
@@ -8,6 +8,7 @@ public class RectangleClass {
     // double perimeter;
     // boolean isSquare;
 
+    // constructor
     public RectangleClass(double width, double height) {
 
         this.width = width;
@@ -18,6 +19,7 @@ public class RectangleClass {
 
     }
 
+    // Methods or
     public double area() {
 
         return (this.width * this.height);
@@ -38,7 +40,7 @@ public class RectangleClass {
                 ", Is Square: " + isSquare();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // objects or
 
         RectangleClass r1 = new RectangleClass(20.00, 15.00);
         RectangleClass r2 = new RectangleClass(30.00, 15.00);

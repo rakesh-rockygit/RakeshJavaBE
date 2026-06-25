@@ -6,7 +6,9 @@ public class Account {
     int number;
     int amount;
     String name;
+    double withdraw;
     double accountno;
+    double balance;
     double getbalance;
 
     public static void main(String[] args) { // objects or properties
@@ -16,13 +18,21 @@ public class Account {
         account1.amount = 15000;
         account1.name = "rocky";
         account1.accountno = 9850768;
+        account1.withdraw = 9000;
+
+        System.out.println("accountno" + account1.number);
 
     }
 
-    private int getbalance(int amount) { // methods or behaviours
+    private double withdraw(int amount, String name) { // methods or behaviours
 
-        return (amount);
+        return (amount - withdraw);
 
+    }
+
+    public double withdraw(int amount) { // constructor
+
+        System.out.println("Total amount" + withdraw);
     }
 
     public Account(int getbalance) { // constructor

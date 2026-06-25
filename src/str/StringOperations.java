@@ -18,6 +18,7 @@ public class StringOperations {
 
         //equals method compares references and numbers, values
         System.out.println(a.equals(c));
+        System.out.println(a.equals(b));
 
     }
 }
