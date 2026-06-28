@@ -6,10 +6,13 @@ public class exceptionsPractice {
 
         try {
             int index = findElement(data, 99); // This target does not exist
-            System.out.println("Found at index: " + index);
-        } catch (ElementNotFoundException e) {
+            System.out.println("Found at index: " + index); 
+        } catch (ElementNotFoundException e) { 
             System.err.println(e.getMessage()); // Gracefully handles the missing array element
         }
+
+        throw ElementNotFoundException;
     }
+
 }
 
