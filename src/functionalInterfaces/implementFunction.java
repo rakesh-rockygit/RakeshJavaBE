@@ -35,6 +35,7 @@ public class implementFunction {
     numList.add(7);
     numList.add(9);
     numList.add(10);
+    numList.add(11);
 
 //Streams - Identify the list of even elements from a List of integer.
 List<Integer> evenList = numList.stream()
