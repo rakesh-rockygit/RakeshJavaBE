@@ -55,7 +55,7 @@ List<String> upperStr = strs.stream()
 Stream.Builder<Integer> streamBuilder = Stream.builder();
 System.out.println("upper strings:" + upperStr);
 
-List<Integer> salHR = List.of(4000, 5000, 6000, 7000);
+List<Integer> salHR = List.of(4000, 5000, 6000, 9000);
 List<Integer> salPM = List.of(8000, 9000, 10000, 11000);
 List<Integer> salEn = List.of(4000, 5000, 6000, 8000);
 List<List<Integer>> salaries = Arrays.asList(salHR, salPM, salEn);
