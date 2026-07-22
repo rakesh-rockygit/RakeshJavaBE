@@ -31,7 +31,7 @@ public class implementFunction {
     List<Integer> numList = new ArrayList<>();
     numList.add(4);
     numList.add(5);
-    numList.add(7);
+    numList.add(6);
     numList.add(9);
     numList.add(10);
     numList.add(11);
