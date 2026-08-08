@@ -4,7 +4,7 @@ public class exceptionExample {
     
     public static void main(String[] args) {
         try {
-            int data = 9 / 0;                        // Throws ArithmeticException
+            int data = 1 / 0;                        // Throws ArithmeticException
             System.out.println("This text will not print.");
         } catch (ArithmeticException e) {
             System.out.println("Error: Cannot divide by zero! " + e.getMessage());
