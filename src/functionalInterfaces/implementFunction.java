@@ -68,7 +68,7 @@ List<Integer> allSalaries = salaries.stream()
 
 System.out.println("combined list of salaries:" + allSalaries);
 
-List<Integer> numbers = Arrays.asList(2,1,4,7,10);
+List<Integer> numbers = Arrays.asList(2,1,4,7,10,11);
 List<Integer> numberStream = numbers.stream()
                         .filter((Integer val) -> val >=3) //4,7,10
                         .map((Integer val) -> (val * -1)) //-4,-7,-10
