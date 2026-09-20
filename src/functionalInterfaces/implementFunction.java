@@ -15,7 +15,7 @@ import collections.arrayList;
 
 public class implementFunction {
     public static void main(String[] args) {
-        Function<String, String> strToken = (s) -> s.toLowerCase();
+        Function<String, String> strToken = (s) -> s.toUpperCase();
         Function<Integer, String> intTostr = (n) -> "Number : " + n;
 
         System.out.println(strToken.apply("Function"));
@@ -50,13 +50,13 @@ Stream<Integer> salaryStream = Stream.of(4000, 5000, 7000, 9000, 6000);
 List<String> strs = List.of("Test1", "Test2", "Test3", "Test4");
 List<String> upperStr = strs.stream()
            .map((s) -> {
-            return s.toLowerCase();
+            return s.toUpperCase();
            }).toList();
 Stream.Builder<Integer> streamBuilder = Stream.builder();
 System.out.println("upper strings:" + upperStr);
 
 List<Integer> salHR = List.of(4000, 5000, 6000, 7000, 9000);
-List<Integer> salPM = List.of(6000, 8000, 9000, 10000, 11000);
+List<Integer> salPM = List.of(6000, 7500, 9000, 10000, 11000);
 List<Integer> salEn = List.of(4000, 4500, 6000, 8000, 10001);
 List<List<Integer>> salaries = Arrays.asList(salHR, salPM, salEn);
 
