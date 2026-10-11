@@ -36,7 +36,7 @@ public class Mobile {
         Mobile mobile1 = new Mobile(); // instance or objects which calls for constructor
         mobile1.screen = 6;
         mobile1.make = "Apple";
-        mobile1.storage = "256GB";
+        mobile1.storage = "512GB";
 
         Mobile mobile2 = new Mobile();
         mobile2.model = "18 pro";
