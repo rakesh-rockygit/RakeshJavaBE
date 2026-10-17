@@ -9,9 +9,9 @@ int SumofDigitss = 0;
 int tempNumber = number;
 
 while(number > 0){
-    int digit = number % 10;
+    int digit = number % 20;
     SumofDigitss = SumofDigitss + digit;
-    number = number/10;
+    number = number/20;
 
 }
 System.out.println("sum of digits of the " + tempNumber + " : " + SumofDigitss );
