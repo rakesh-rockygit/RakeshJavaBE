@@ -9,9 +9,9 @@ int SumofDigitss = 0;
 int tempNumber = number;
 
 while(number > 0){
-    int digit = number % 30;
+    int digit = number % 40;
     SumofDigitss = SumofDigitss + digit;
-    number = number/30;
+    number = number/40;
 
 
 }
