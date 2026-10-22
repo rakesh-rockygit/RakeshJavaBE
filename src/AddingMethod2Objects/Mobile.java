@@ -13,7 +13,7 @@ public class Mobile {
         takePicture();
         playGame();
         chargePhone();
-
+        chatFriends();
     }
 
     // methods or properties
@@ -28,6 +28,10 @@ public class Mobile {
 
     private void chargePhone() {
         System.out.println("charge phone when battery is dead ");
+    }
+
+    private void chatFriends() {
+        System.out.println("chat with friends");
     }
 
     public static void main(String[] args) {
