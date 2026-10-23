@@ -31,7 +31,7 @@ public class BankingOperations {
 
   public double withdraw(int account, double amount) { // substraction to the current balance
     // conditional statement
-    if (isChequingAccount(account) || currentBalance <= (amount - 100)) {
+    if (isChequingAccount(account) || currentBalance <= (amount - 200)) {
       currentBalance = currentBalance - amount;
     } else {
       System.out.println("sufficient balance" + currentBalance);
@@ -40,7 +40,7 @@ public class BankingOperations {
   }
 
   public boolean isChequingAccount(int account) {
-    return true;
+    return false;
   }
 
 }
