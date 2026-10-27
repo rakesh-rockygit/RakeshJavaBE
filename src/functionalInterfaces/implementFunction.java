@@ -29,7 +29,7 @@ public class implementFunction {
     System.out.println("isEven:" + isEven.test(11));
 
     List<Integer> numList = new ArrayList<>();
-    numList.add(1);
+    numList.add(2);
     numList.add(5);
     numList.add(7);
     numList.add(9);
