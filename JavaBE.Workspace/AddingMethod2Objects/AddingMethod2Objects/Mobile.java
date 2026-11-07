@@ -45,7 +45,7 @@ public class Mobile {
         Mobile mobile2 = new Mobile();
         mobile2.model = "18 pro";
         mobile2.make = "Apple";
-        mobile2.OS = 27.78;
+        mobile2.OS = 27.8;
 
     }
     {
