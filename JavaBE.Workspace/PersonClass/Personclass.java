@@ -21,7 +21,7 @@ public class Personclass {
     public static void main(String[] args) {
         Personclass person1 = new Personclass("rocky", 31, "vancouver");
         Personclass person2 = new Personclass("rakesh", 27, "toronto");
-        Personclass person3 = new Personclass("suresh", 35, "montreal");
+        Personclass person3 = new Personclass("rajesh", 35, "montreal");
         person1.greet();
         person2.greet();
         person3.greet();
