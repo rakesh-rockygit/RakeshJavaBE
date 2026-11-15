@@ -9,7 +9,7 @@ public class hashSet {
 		Set<String> cities = new HashSet<>();
 		cities.add("Istanbul");
 		cities.add("Ankara");
-		cities.add("Ankara"); // duplicate - silently ignored
+		cities.add("Istanbul"); // duplicate - silently ignored
 
 		System.out.println(cities.size());
 		System.out.println(cities.contains("Ankara"));
