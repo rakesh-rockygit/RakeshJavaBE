@@ -15,7 +15,7 @@ public class hashSet {
 		System.out.println(cities.contains("Ankara"));
 		System.out.println(cities.contains("Bursa"));
 
-		cities.remove("Ankara");
+		cities.remove("Bursa");
 		System.out.println(cities);
 
 		Set<Integer> a = new HashSet<>(Set.of(1, 2, 3, 4));
