@@ -42,7 +42,7 @@ public class polyMorphism {
         Animal myTiger = new Tiger();
 
         // The JVM resolves the method call at runtime based on the actual object type
-        myDog.makeSound(); // Outputs: The dog barks: Woof Woof!
+        //myDog.makeSound(); // Outputs: The dog barks: Woof Woof!
         myCat.makeSound(); // Outputs: The cat meows: Meow!
         myTiger.makeSound(); // Outputs: The tiger growls: Grrr!
     }
