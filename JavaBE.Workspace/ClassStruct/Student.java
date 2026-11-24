@@ -4,18 +4,19 @@ public class Student {
     // Instance fields —every Student object gets its own copy
     String name;
     double gpa;
+    double PI_TABLE = 3.14; // constant value for each student
     // Static field —ONE copy shared by the entire Student class
 
     static int totalStudents = 0;
     static String university = "ITU";
 
-    final double PI_TABLE = 3.14;
+   // final double PI_TABLE = 3.14;
 
     public Student(String name, double gpa) {
         this.name = name;
         this.gpa = gpa;
         totalStudents++;
-      //  PI_TABLE = 44.18;
+        PI_TABLE = 3.14;
 
         // every new student increments the shared counter
     }
