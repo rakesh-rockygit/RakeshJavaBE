@@ -11,6 +11,7 @@ public class Car {
 
         Car toyotaCar = new Car();
         toyotaCar.wheel = 4;
+        toyotaCar.seat = 5;
         toyotaCar.version = 3.75;
 
         System.out.println("print something ");
@@ -21,6 +22,7 @@ public class Car {
 
     int wheel;
     int engine;
+    int seat;
     String make;
     String colour;
     double version;
