@@ -17,7 +17,7 @@ public class Account {
         account1.number = 10;
         account1.amount = 15000;
         account1.name = "rocky";
-        account1.accountno = 98507689;
+        account1.accountno = 985076899;
         account1.withdraw = 9000;
 
         System.out.println("accountno" + account1.number);
