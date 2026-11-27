@@ -11,7 +11,7 @@ public class Car {
 
         Car toyotaCar = new Car();
         toyotaCar.wheel = 4;
-        toyotaCar.seat = 5;
+        toyotaCar.seat = 4;
         toyotaCar.version = 3.75;
 
         System.out.println("print something ");
